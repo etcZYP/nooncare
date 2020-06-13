@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.SigninMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Signin">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="org" jdbcType="VARCHAR" property="org" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="date" jdbcType="TIMESTAMP" property="date" />
+    <result column="locate" jdbcType="VARCHAR" property="locate" />
+    <result column="mark" jdbcType="VARCHAR" property="mark" />
+    <result column="date2" jdbcType="VARCHAR" property="date2" />
+  </resultMap>
+</mapper>
